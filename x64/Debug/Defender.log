@@ -1,0 +1,52 @@
+﻿Build started 3/25/2014 8:40:08 PM.
+     1>Project "C:\Users\GW\Documents\Visual Studio 2012\Projects\Defender\Defender\Defender.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\Defender.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Libraries\SFML-2.1\include" /Zi /nologo /W3 /WX- /Od /D SFML_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt World.cpp
+         World.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\GW\Documents\Visual Studio 2012\Projects\Defender\x64\Debug\Defender.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Libraries\SFML-2.1\lib" opengl32.lib glu32.lib "sfml-graphics-s-d.lib" "sfml-window-s-d.lib" "sfml-system-s-d.lib" "sfml-audio-s-d.lib" "sfml-network-s-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\GW\Documents\Visual Studio 2012\Projects\Defender\x64\Debug\Defender.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\GW\Documents\Visual Studio 2012\Projects\Defender\x64\Debug\Defender.lib" /MACHINE:X64 x64\Debug\Aircraft.obj
+         x64\Debug\Animation.obj
+         x64\Debug\Application.obj
+         x64\Debug\BloomEffect.obj
+         x64\Debug\Button.obj
+         x64\Debug\Command.obj
+         x64\Debug\CommandQueue.obj
+         x64\Debug\Component.obj
+         x64\Debug\Container.obj
+         x64\Debug\DataTables.obj
+         x64\Debug\EmitterNode.obj
+         x64\Debug\Entity.obj
+         x64\Debug\GameOverState.obj
+         x64\Debug\GameState.obj
+         x64\Debug\Label.obj
+         x64\Debug\Main.obj
+         x64\Debug\MenuState.obj
+         x64\Debug\MusicPlayer.obj
+         x64\Debug\ParticleNode.obj
+         x64\Debug\PauseState.obj
+         x64\Debug\Pickup.obj
+         x64\Debug\Player.obj
+         x64\Debug\PostEffect.obj
+         x64\Debug\Projectile.obj
+         x64\Debug\SceneNode.obj
+         x64\Debug\SettingsState.obj
+         x64\Debug\SoundNode.obj
+         x64\Debug\SoundPlayer.obj
+         x64\Debug\SpriteNode.obj
+         x64\Debug\State.obj
+         x64\Debug\StateStack.obj
+         x64\Debug\TextNode.obj
+         x64\Debug\TitleState.obj
+         x64\Debug\Utility.obj
+         x64\Debug\World.obj
+         Defender.vcxproj -> C:\Users\GW\Documents\Visual Studio 2012\Projects\Defender\x64\Debug\Defender.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\Defender.unsuccessfulbuild".
+         Touching "x64\Debug\Defender.lastbuildstate".
+     1>Done Building Project "C:\Users\GW\Documents\Visual Studio 2012\Projects\Defender\Defender\Defender.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.72

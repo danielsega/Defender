@@ -1,0 +1,54 @@
+﻿Build started 5/5/2014 6:15:08 PM.
+     1>Project "C:\Users\GW\documents\visual studio 2012\Projects\Defender\Defender\Defender.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\Defender.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Libraries\SFML-2.1\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D SFML_STATIC /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt World.cpp
+         World.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\GW\documents\visual studio 2012\Projects\Defender\x64\Release\Defender.exe" /NOLOGO /LIBPATH:"C:\Libraries\SFML-2.1\lib" opengl32.lib glu32.lib "sfml-graphics-s.lib" "sfml-window-s.lib" "sfml-system-s.lib" "sfml-audio-s.lib" "sfml-network-s.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\GW\documents\visual studio 2012\Projects\Defender\x64\Release\Defender.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\GW\documents\visual studio 2012\Projects\Defender\x64\Release\Defender.lib" /MACHINE:X64 x64\Release\Aircraft.obj
+         x64\Release\Animation.obj
+         x64\Release\Application.obj
+         x64\Release\BloomEffect.obj
+         x64\Release\Button.obj
+         x64\Release\Command.obj
+         x64\Release\CommandQueue.obj
+         x64\Release\Component.obj
+         x64\Release\Container.obj
+         x64\Release\DataTables.obj
+         x64\Release\EmitterNode.obj
+         x64\Release\Entity.obj
+         x64\Release\GameOverState.obj
+         x64\Release\GameState.obj
+         x64\Release\Label.obj
+         x64\Release\Main.obj
+         x64\Release\MenuState.obj
+         x64\Release\MusicPlayer.obj
+         x64\Release\ParticleNode.obj
+         x64\Release\PauseState.obj
+         x64\Release\Pickup.obj
+         x64\Release\Player.obj
+         x64\Release\PostEffect.obj
+         x64\Release\Projectile.obj
+         x64\Release\SceneNode.obj
+         x64\Release\SettingsState.obj
+         x64\Release\SoundNode.obj
+         x64\Release\SoundPlayer.obj
+         x64\Release\SpriteNode.obj
+         x64\Release\State.obj
+         x64\Release\StateStack.obj
+         x64\Release\TextNode.obj
+         x64\Release\TitleState.obj
+         x64\Release\Utility.obj
+         x64\Release\World.obj
+         Generating code
+         Finished generating code
+         Defender.vcxproj -> C:\Users\GW\documents\visual studio 2012\Projects\Defender\x64\Release\Defender.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\Defender.unsuccessfulbuild".
+         Touching "x64\Release\Defender.lastbuildstate".
+     1>Done Building Project "C:\Users\GW\documents\visual studio 2012\Projects\Defender\Defender\Defender.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.98
